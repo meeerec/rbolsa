@@ -6520,3 +6520,19 @@ opacity: .48;
 		font-weight: 700;
 	}
 }
+/* BOTON VOLVER A LA BOLSA */
+#back-first-step{
+	display: block;
+    overflow: hidden;
+    text-align: center;
+    color: #757575;
+    margin: 0 0 20px;
+    font-size: 12px;
+    border-bottom: solid 1px #ddd;
+    padding: 0 0 20px;
+    font-family: $bold-primary-font;
+    cursor:pointer;
+    &:hover{
+    	color:$primary-color;
+    }
+}

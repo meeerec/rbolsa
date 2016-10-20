@@ -5840,4 +5840,19 @@ a.linkRegCliFC {
   .shipped-by-marketplace strong {
     font-weight: 700; }
 
+/* BOTON VOLVER A LA BOLSA */
+#back-first-step {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  color: #757575;
+  margin: 0 0 20px;
+  font-size: 12px;
+  border-bottom: solid 1px #ddd;
+  padding: 0 0 20px;
+  font-family: "montserratsemi_bold";
+  cursor: pointer; }
+  #back-first-step:hover {
+    color: #6E357C; }
+
 /*# sourceMappingURL=style.css.map */
