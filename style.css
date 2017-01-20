@@ -21,7 +21,7 @@ body {
     body {
       background: #f4f4f4; } }
   body.modal-open {
-    overflow: hidden;
+    overflow: visible;
     position: relative;
     position: fixed;
     width: 100%;
@@ -145,7 +145,7 @@ h4 {
   margin: 0 0 20px;
   border: dashed 1px #ff9b9b;
   -webkit-border-radius: 6px;
-  -moz-border-radis: 6px;
+  -moz-border-radius: 6px;
   border-radius: 6px; }
   .service-alert p {
     margin: 0;
@@ -218,7 +218,7 @@ hr {
       background: #bf0122;
       opacity: 0.5;
       -webkit-border-radius: 20px;
-      -moz-border-radis: 20px;
+      -moz-border-radius: 20px;
       border-radius: 20px;
       animation: Cuncuna 1s infinite ease-in-out;
       -moz-animation: Cuncuna 1s infinite ease-in-out;
@@ -292,7 +292,7 @@ hr {
   display: block;
   width: 100%;
   -webkit-border-radius: 6px;
-  -moz-border-radis: 6px;
+  -moz-border-radius: 6px;
   border-radius: 6px; }
   .alert .fa {
     display: block;
@@ -385,7 +385,7 @@ hr {
     overflow: hidden;
     line-height: 16pt;
     -webkit-border-radius: 0;
-    -moz-border-radis: 0;
+    -moz-border-radius: 0;
     border-radius: 0; }
     @media only screen and (min-width: 960px) {
       .alert.alert-gift, .alert.alert-promo {
@@ -397,14 +397,14 @@ hr {
       float: none;
       font-family: "montserratsemi_bold";
       -webkit-border-radius: 6px;
-      -moz-border-radis: 6px;
+      -moz-border-radius: 6px;
       border-radius: 6px; }
       @media only screen and (min-width: 960px) {
         .alert.alert-gift .btn, .alert.alert-promo .btn {
           margin: 0;
           float: right;
           -webkit-border-radius: 0;
-          -moz-border-radis: 0;
+          -moz-border-radius: 0;
           border-radius: 0; } }
   .alert.alert-promo {
     text-align: center;
@@ -457,7 +457,7 @@ hr {
       font-family: "montserratsemi_bold"; }
   .alert .btn {
     -webkit-border-radius: 0;
-    -moz-border-radis: 0;
+    -moz-border-radius: 0;
     border-radius: 0;
     font-size: 12px;
     float: right;
@@ -502,7 +502,7 @@ hr {
   margin: 15px 0 0;
   clear: both;
   -webkit-border-radius: 5px;
-  -moz-border-radis: 5px;
+  -moz-border-radius: 5px;
   border-radius: 5px; }
   .alert-use-ripleypuntos .ripleypuntos-icon {
     margin: 0 0 0 15px; }
@@ -662,7 +662,7 @@ div.msgpopup1 .msgpopup_content_wrapper .content .message_text, div.msgpopup2 .m
   -ms-transition: all 0.1s ease-in-out;
   -o-transition: all 0.1s ease-in-out;
   -webkit-border-radius: 6px;
-  -moz-border-radis: 6px;
+  -moz-border-radius: 6px;
   border-radius: 6px; }
   .btn:hover {
     background: #6E357C;
@@ -874,7 +874,7 @@ input[type="checkbox"] {
       font-size: 14px;
       line-height: 14pt;
       -webkit-border-radius: 3px;
-      -moz-border-radis: 3px;
+      -moz-border-radius: 3px;
       border-radius: 3px;
       -webkit-transition: all 0.1s ease-in-out;
       -moz-transition: all 0.1s ease-in-out;
@@ -896,7 +896,7 @@ select {
   background: #fff;
   font-size: 13px;
   -webkit-border-radius: 0;
-  -moz-border-radis: 0;
+  -moz-border-radius: 0;
   border-radius: 0; }
 
 .custom-select {
@@ -952,7 +952,7 @@ select {
     left: 50%;
     margin: -25px 0 0 -25px;
     -webkit-border-radius: 4px;
-    -moz-border-radis: 4px;
+    -moz-border-radius: 4px;
     border-radius: 4px; }
   .loading .loading-inner {
     width: 110px;
@@ -968,7 +968,7 @@ select {
       background: #bf0122;
       opacity: 0.5;
       -webkit-border-radius: 20px;
-      -moz-border-radis: 20px;
+      -moz-border-radius: 20px;
       border-radius: 20px;
       animation: Cuncuna 1s infinite ease-in-out;
       -moz-animation: Cuncuna 1s infinite ease-in-out;
@@ -1052,7 +1052,7 @@ select {
         margin-left: -375px;
         box-shadow: -2px -2px 25px #ccc;
         -webkit-border-radius: 8px;
-        -moz-border-radis: 8px;
+        -moz-border-radius: 8px;
         border-radius: 8px; } }
     .modal .modal-dialog:focus {
       outline: none;
@@ -1286,7 +1286,7 @@ table {
   margin: 20px 0 0;
   text-align: center;
   -webkit-border-radius: 5px;
-  -moz-border-radis: 5px;
+  -moz-border-radius: 5px;
   border-radius: 5px; }
   #avaible-ripleypuntos span {
     font-family: "montserratsemi_bold"; }
@@ -1642,7 +1642,7 @@ dl.subtotal-price {
   cursor: pointer;
   line-height: 24pt;
   -webkit-border-radius: 20px;
-  -moz-border-radis: 20px;
+  -moz-border-radius: 20px;
   border-radius: 20px;
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
@@ -1847,7 +1847,7 @@ dl.subtotal-price {
     clear: both;
     margin-bottom: 15px;
     -webkit-border-radius: 6px;
-    -moz-border-radis: 6px;
+    -moz-border-radius: 6px;
     border-radius: 6px; }
     #shopping-bag-total #collapsediscount p, #shopping-bag-total #collapsegift p {
       padding: 20px;
@@ -2524,7 +2524,7 @@ dl.subtotal-price {
         padding: 0;
         box-shadow: -2px -2px 25px #ccc;
         -webkit-border-radius: 8px;
-        -moz-border-radis: 8px;
+        -moz-border-radius: 8px;
         border-radius: 8px; } }
     @media only screen and (min-width: 1280px) {
       #display-login .modal-dialog {
@@ -2675,7 +2675,7 @@ dl.subtotal-price {
         position: relative;
         margin: 0 auto 10px;
         -webkit-border-radius: 25px;
-        -moz-border-radis: 25px;
+        -moz-border-radius: 25px;
         border-radius: 25px; }
         #shipping-method > ul li .shipping-method-type .retiro-icon, #payment-method > ul li .shipping-method-type .retiro-icon, #confirmation-step > ul li .shipping-method-type .retiro-icon {
           background: transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) 0 0 no-repeat;
@@ -2868,7 +2868,7 @@ dl.subtotal-price {
       text-indent: 0;
       margin: 0;
       -webkit-border-radius: 15px;
-      -moz-border-radis: 15px;
+      -moz-border-radius: 15px;
       border-radius: 15px; }
       @media only screen and (min-width: 960px) {
         #shipping-steps ul li span {
@@ -2924,7 +2924,7 @@ dl.subtotal-price {
       text-indent: -9999px;
       margin: -10px 10px 0 0;
       -webkit-border-radius: 0;
-      -moz-border-radis: 0;
+      -moz-border-radius: 0;
       border-radius: 0; }
       @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-resolution: 240dpi) {
         #shipping-steps ul li.shopping-bag .shopping-bag-icon {
@@ -2968,7 +2968,7 @@ dl.subtotal-price {
     .recipient-info form .form-group:last-child label.radio, .account-recipient-info form .form-group:last-child label.radio {
       border-left: none;
       -webkit-border-radius: 0 6px 6px 0;
-      -moz-border-radis: 0 6px 6px 0;
+      -moz-border-radius: 0 6px 6px 0;
       border-radius: 0 6px 6px 0; }
   .recipient-info form label.radio, .account-recipient-info form label.radio {
     background: #fff;
@@ -2978,7 +2978,7 @@ dl.subtotal-price {
     display: block;
     text-align: center;
     -webkit-border-radius: 6px 0 0 6px;
-    -moz-border-radis: 6px 0 0 6px;
+    -moz-border-radius: 6px 0 0 6px;
     border-radius: 6px 0 0 6px; }
     .recipient-info form label.radio::before, .account-recipient-info form label.radio::before {
       display: none; }
@@ -2989,7 +2989,7 @@ dl.subtotal-price {
         padding: 0;
         text-align: left;
         -webkit-border-radius: 0;
-        -moz-border-radis: 0;
+        -moz-border-radius: 0;
         border-radius: 0; }
         .recipient-info form label.radio::before, .account-recipient-info form label.radio::before {
           display: block; } }
@@ -3084,7 +3084,7 @@ dl.subtotal-price {
     background: none;
     padding: 0;
     -webkit-border-radius: 0;
-    -moz-border-radis: 0;
+    -moz-border-radius: 0;
     border-radius: 0; }
     .recipient-info .form-group.shipping-info label.radio::before, .account-recipient-info .form-group.shipping-info label.radio::before {
       display: block; }
@@ -3188,7 +3188,7 @@ dl.subtotal-price {
         font-size: 14px;
         line-height: 14pt;
         -webkit-border-radius: 3px;
-        -moz-border-radis: 3px;
+        -moz-border-radius: 3px;
         border-radius: 3px;
         -webkit-transition: all 0.1s ease-in-out;
         -moz-transition: all 0.1s ease-in-out;
@@ -3208,7 +3208,7 @@ dl.subtotal-price {
         width: 18px;
         height: 18px;
         -webkit-border-radius: 3px;
-        -moz-border-radis: 3px;
+        -moz-border-radius: 3px;
         border-radius: 3px;
         -webkit-transition: all 0.1s ease-in-out;
         -moz-transition: all 0.1s ease-in-out;
@@ -3349,7 +3349,7 @@ dl.subtotal-price {
     line-height: 14pt;
     text-align: left;
     -webkit-border-radius: 0;
-    -moz-border-radis: 0;
+    -moz-border-radius: 0;
     border-radius: 0; }
   .no-avaible-shipping-sidebar .alert-icon {
     margin: 0 10px 0 0; }
@@ -3423,7 +3423,7 @@ dl.subtotal-price {
       background: #a9a9a9;
       margin: 0;
       -webkit-border-radius: 0;
-      -moz-border-radis: 0;
+      -moz-border-radius: 0;
       border-radius: 0; }
     .shopping-item-sidebar.no-avaible-shipping-sidebar .shopping-item-sidebar {
       padding: 15px 10px;
@@ -3764,7 +3764,7 @@ ul#payment-document {
       text-align: center;
       color: #ccc;
       -webkit-border-radius: 6px 0 0 6px;
-      -moz-border-radis: 6px 0 0 6px;
+      -moz-border-radius: 6px 0 0 6px;
       border-radius: 6px 0 0 6px;
       -webkit-transition: all 0.1s ease-in-out;
       -moz-transition: all 0.1s ease-in-out;
@@ -3777,7 +3777,7 @@ ul#payment-document {
           color: #333;
           padding: 3px;
           -webkit-border-radius: 0;
-          -moz-border-radis: 0;
+          -moz-border-radius: 0;
           border-radius: 0; } }
       ul#payment-document li a.disabled {
         cursor: default; }
@@ -3809,13 +3809,13 @@ ul#payment-document {
           text-shadow: none; } }
     ul#payment-document li:last-child a {
       -webkit-border-radius: 0 6px 6px 0;
-      -moz-border-radis: 0 6px 6px 0;
+      -moz-border-radius: 0 6px 6px 0;
       border-radius: 0 6px 6px 0;
       border-left: none; }
       @media only screen and (min-width: 960px) {
         ul#payment-document li:last-child a {
           -webkit-border-radius: 0;
-          -moz-border-radis: 0;
+          -moz-border-radius: 0;
           border-radius: 0; } }
 
 #payment-document-detail p strong {
@@ -3942,7 +3942,7 @@ ul#payment-document {
   clear: both;
   margin-bottom: 15px;
   -webkit-border-radius: 6px;
-  -moz-border-radis: 6px;
+  -moz-border-radius: 6px;
   border-radius: 6px; }
   #collapse-vcode p, #collapse-titular-name p {
     margin: 0 0 10px;
@@ -4452,6 +4452,10 @@ ul#payment-document {
   margin-bottom: 10px;
   font-family: "montserratsemi_bold"; }
 
+#register-email-display-modal {
+  text-align: center;
+  margin: 0 0 15px; }
+
 .collapse-parent-small {
   margin: 0;
   border: none;
@@ -4672,7 +4676,7 @@ ul#payment-document {
       padding: 5px 8px;
       border: solid 1px #757575;
       -webkit-border-radius: 6px;
-      -moz-border-radis: 6px;
+      -moz-border-radius: 6px;
       border-radius: 6px; }
       @media only screen and (min-width: 960px) {
         #select-store ul li .underline-link, #change-shipping-store ul li .underline-link {
@@ -4681,7 +4685,7 @@ ul#payment-document {
           padding: 0 0 5px;
           border: none;
           -webkit-border-radius: 0;
-          -moz-border-radis: 0;
+          -moz-border-radius: 0;
           border-radius: 0; } }
 
 #view-details-modal .col-50 {
@@ -4934,7 +4938,7 @@ ul#payment-document {
     text-align: center;
     width: 100%;
     -webkit-border-radius: 0;
-    -moz-border-radis: 0;
+    -moz-border-radius: 0;
     border-radius: 0; }
     #shopping-order-reserved-product .alert .fa {
       color: #fff;
@@ -5740,7 +5744,7 @@ a.linkRegCliFC {
     right: -20px;
     z-index: 20;
     -webkit-border-radius: 6px;
-    -moz-border-radis: 6px;
+    -moz-border-radius: 6px;
     border-radius: 6px; }
   .tooltip-parent .fa {
     line-height: 20px !important; }
@@ -5768,7 +5772,7 @@ a.linkRegCliFC {
     width: 20%;
     border: solid 1px #ddd;
     -webkit-border-radius: 200px;
-    -moz-border-radis: 200px;
+    -moz-border-radius: 200px;
     border-radius: 200px; }
   .shopping-item-sidebar.marketplace .shopping-item-info {
     width: 80%;
@@ -5820,7 +5824,7 @@ a.linkRegCliFC {
     top: 0;
     left: 0;
     -webkit-border-radius: 200px;
-    -moz-border-radis: 200px;
+    -moz-border-radius: 200px;
     border-radius: 200px; }
     .product-preview-item .thumbnail img {
       display: block;

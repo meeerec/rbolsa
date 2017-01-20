@@ -41,7 +41,7 @@ only screen and (min-resolution: 240dpi)";
 
 @mixin border-radius ($radius){
 -webkit-border-radius: $radius;
--moz-border-radis: $radius;
+-moz-border-radius: $radius;
 border-radius: $radius;
 }
 
@@ -69,7 +69,7 @@ body{
 		background:#f4f4f4;
 	}
 	&.modal-open{
-		overflow: hidden;
+		overflow: visible;
 		position:relative;
 		position: fixed;
 		width:100%;
@@ -5088,6 +5088,10 @@ ul#payment-document{
 		margin-bottom: 10px;
 		font-family: $bold-primary-font;
 	}
+}
+#register-email-display-modal{
+  text-align: center;
+  margin: 0 0 15px;
 }
 
 .collapse-parent-small{
