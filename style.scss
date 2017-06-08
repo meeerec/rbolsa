@@ -35,8 +35,8 @@ $desktop: "only screen and (min-width: 960px)";
 $tablet: "only screen and (min-width: 720px)";
 $mobile: "only screen and (min-width: 480px)";
 $print: "only print";
-$retina: "only screen and (-webkit-min-device-pixel-ratio: 1.5), 
-only screen and (min--moz-device-pixel-ratio: 1.5), 
+$retina: "only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (min-resolution: 240dpi)";
 
 @mixin border-radius ($radius){
@@ -52,10 +52,10 @@ border-radius: $radius;
 }
 
 @mixin transition ($transition) {
-	-webkit-transition: $transition 0.1s ease-in-out;  
-	-moz-transition: $transition 0.1s ease-in-out; 
-	-ms-transition: $transition 0.1s ease-in-out; 
-	-o-transition:  $transition 0.1s ease-in-out; 
+	-webkit-transition: $transition 0.1s ease-in-out;
+	-moz-transition: $transition 0.1s ease-in-out;
+	-ms-transition: $transition 0.1s ease-in-out;
+	-o-transition:  $transition 0.1s ease-in-out;
 }
 
 body{
@@ -734,7 +734,7 @@ div.msgpopup1 .msgpopup_content_wrapper .content .message_text, div.msgpopup2 .m
 	border:solid 1px #e4e4e4;
 	padding:8px 12px;
 	background: #fff;
-	min-height:34px;
+	min-height:30px;
 	font-size:14px;
 	line-height:20pt;
 	cursor:pointer;
@@ -760,7 +760,7 @@ div.msgpopup1 .msgpopup_content_wrapper .content .message_text, div.msgpopup2 .m
 	}
 	&.btn-default{
 		padding:10px 20px;
-		min-height:50px;
+		min-height:40px;
 		border-color:#757575;
 		color:#757575;
 		background: transparent;
@@ -1938,11 +1938,11 @@ dl.subtotal-price{
 				border-bottom: solid 1px #e4e4e4;
 				@media #{$tablet}{
 					text-align: left;
-					line-height: 26pt; 
+					line-height: 26pt;
 				}
 				dl{
 					overflow: hidden;
-					display: block; 
+					display: block;
 					margin:0;
 					width:77%;
 					float:left;
@@ -2300,11 +2300,11 @@ dl.subtotal-price{
 				text-align: center;
 				@media #{$tablet}{
 					text-align: left;
-					line-height: 26pt; 
+					line-height: 26pt;
 				}
 				dl{
 					overflow: hidden;
-					display: table; 
+					display: table;
 					margin:0 auto;
 					width:70%;
 					float:left;
@@ -3845,7 +3845,7 @@ dl.subtotal-price{
 		}
 	}
 	&.no-avaible-shipping-sidebar{
-	    display: block; 
+	    display: block;
 		.alert-danger{
 			padding: 10px;
 		    line-height: 14pt;
@@ -4110,7 +4110,7 @@ img.maps{
 			}
 		}
 		.nueva-tarjeta {
-		  margin: 0 0 -15px; 
+		  margin: 0 0 -15px;
 		  }
 		.branded{
 			.btn{
@@ -4375,6 +4375,10 @@ ul#payment-document{
 			}
 		}
 	}
+  .modal-header h3{
+    margin:0;
+    text-align: center;
+  }
 	input.input-tripley{
 		background: #fff url(../../images/colors/color1/flujoDeCompra/img/tripley.png) right center no-repeat;
 		padding-right: 55px;
@@ -4593,7 +4597,7 @@ ul#payment-document{
 		dd {
 			display: table;
 			float: right;
-			color: #bf0a0a; 
+			color: #bf0a0a;
 		}
 		&.total-price{
 			font-family: $bold-primary-font;
@@ -4604,7 +4608,7 @@ ul#payment-document{
 	padding:10px 0;
 	overflow:hidden;
 	p{
-		display: block;	
+		display: block;
 		padding:0 15px 0 0;
 		width:100%;
 		margin:0 0 20px;
@@ -5967,7 +5971,7 @@ div.msgpopup1 .msgpopup_content_wrapper .content .close .msgpopup1_x, div.msgpop
 
 .modalesTarjetas{
 	padding: 0px !important;
-	border: none !important;	
+	border: none !important;
 }
 
 #fancybox-wrap {
@@ -5991,7 +5995,7 @@ div.msgpopup1 .msgpopup_content_wrapper .content .close .msgpopup1_x, div.msgpop
 	z-index: 1103;
 }
 
-.dijitTooltip{position:absolute;z-index:99999;display:block;left:50%;top:-10000px;overflow:visible} 
+.dijitTooltip{position:absolute;z-index:99999;display:block;left:50%;top:-10000px;overflow:visible}
 .dijitTooltipContainer{border:solid #000 2px;background:#b8b5b5;color:#000;font-size:small}
 .dijitTooltipFocusNode{padding:2px 2px 2px 2px}
 .dijitTooltipConnector{position:absolute}
@@ -6033,7 +6037,7 @@ section#store-shipping-modal div.account-recipient-info{display: none}
 loading{
 	width: 44px;
 	height: 44px;
-	border: 0px; 
+	border: 0px;
 }
 
 /* Eliminar espacio entre la extragarantia y el producto */
@@ -6063,7 +6067,7 @@ loading{
 /* */
 #add-giftcard-modal .modal-dialog.modal-small .modal-content .modal-header.modal-margin h3{
 	margin-bottom: 0px;
-	font-family: none;
+  text-align: center;
 }
 
 #add-giftcard-modal #numeroDeTarjetaTRE label{
@@ -6077,7 +6081,7 @@ loading{
 #seccionSaldoDisponible > .form-group{
 		margin-bottom: 15px;
     overflow: hidden;
-    padding: 3px;	
+    padding: 3px;
     border-bottom: 0px;
 }
 
@@ -6125,7 +6129,7 @@ loading{
 /* Ocultar mensaje validacion */
 #store-shipping-modal_error{
 	display: none;
-}	
+}
 
 /* Ocultar mensaje de validacion login */
 #loginPrincipal{
@@ -6138,7 +6142,7 @@ loading{
 }
 
 label.checkbox {
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .free-gift-price{

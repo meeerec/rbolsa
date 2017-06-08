@@ -652,7 +652,7 @@ div.msgpopup1 .msgpopup_content_wrapper .content .message_text, div.msgpopup2 .m
   border: solid 1px #e4e4e4;
   padding: 8px 12px;
   background: #fff;
-  min-height: 34px;
+  min-height: 30px;
   font-size: 14px;
   line-height: 20pt;
   cursor: pointer;
@@ -680,7 +680,7 @@ div.msgpopup1 .msgpopup_content_wrapper .content .message_text, div.msgpopup2 .m
         display: table; } }
   .btn.btn-default {
     padding: 10px 20px;
-    min-height: 50px;
+    min-height: 40px;
     border-color: #757575;
     color: #757575;
     background: transparent;
@@ -3866,6 +3866,9 @@ ul#payment-document {
   display: block;
   float: left;
   cursor: pointer; }
+#add-ripley-card-modal .modal-header h3, #edit-ripley-card-modal .modal-header h3, #mercadopago-modal .modal-header h3 {
+  margin: 0;
+  text-align: center; }
 #add-ripley-card-modal input.input-tripley, #edit-ripley-card-modal input.input-tripley, #mercadopago-modal input.input-tripley {
   background: #fff url(../../images/colors/color1/flujoDeCompra/img/tripley.png) right center no-repeat;
   padding-right: 55px; }
@@ -5368,7 +5371,7 @@ loading {
 /* */
 #add-giftcard-modal .modal-dialog.modal-small .modal-content .modal-header.modal-margin h3 {
   margin-bottom: 0px;
-  font-family: none; }
+  text-align: center; }
 
 #add-giftcard-modal #numeroDeTarjetaTRE label {
   line-height: 10pt; }
