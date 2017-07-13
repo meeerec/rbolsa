@@ -1,22 +1,22 @@
 @font-face {
     font-family: 'montserratlight';
-    src: url('../../images/colors/color1/flujoDeCompra/fonts/montserrat-light-webfont.eot');
-    src: url('../../images/colors/color1/flujoDeCompra/fonts/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../../images/colors/color1/flujoDeCompra/fonts/montserrat-light-webfont.woff2') format('woff2'),
-         url('../../images/colors/color1/flujoDeCompra/fonts/montserrat-light-webfont.woff') format('woff'),
-         url('../../images/colors/color1/flujoDeCompra/fonts/montserrat-light-webfont.ttf') format('truetype'),
-         url('../../images/colors/color1/flujoDeCompra/fonts/montserrat-light-webfont.svg#montserratlight') format('svg');
+    src: url('fonts/montserrat-light-webfont.eot');
+    src: url('fonts/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montserrat-light-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-light-webfont.woff') format('woff'),
+         url('fonts/montserrat-light-webfont.ttf') format('truetype'),
+         url('fonts/montserrat-light-webfont.svg#montserratlight') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'montserratsemi_bold';
-    src: url('../../images/colors/color1/flujoDeCompra/fonts/montserrat-semibold-webfont.eot');
-    src: url('../../images/colors/color1/flujoDeCompra/fonts/montserrat-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../../images/colors/color1/flujoDeCompra/fonts/montserrat-semibold-webfont.woff2') format('woff2'),
-         url('../../images/colors/color1/flujoDeCompra/fonts/montserrat-semibold-webfont.woff') format('woff'),
-         url('../../images/colors/color1/flujoDeCompra/fonts/montserrat-semibold-webfont.ttf') format('truetype'),
-         url('../../images/colors/color1/flujoDeCompra/fonts/montserrat-semibold-webfont.svg#montserratsemi_bold') format('svg');
+    src: url('fonts/montserrat-semibold-webfont.eot');
+    src: url('fonts/montserrat-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montserrat-semibold-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-semibold-webfont.woff') format('woff'),
+         url('fonts/montserrat-semibold-webfont.ttf') format('truetype'),
+         url('fonts/montserrat-semibold-webfont.svg#montserratsemi_bold') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -78,7 +78,7 @@ body{
 		top:0;
 	}
 	&.login{
-		background:transparent url(../../images/colors/color1/flujoDeCompra/img/modal-bg.jpg) no-repeat;
+		background:transparent url(images/modal-bg.jpg) no-repeat;
 		background-size:cover;
 	}
 	&.shipping, &.shopping-order{
@@ -875,18 +875,18 @@ div.msgpopup1 .msgpopup_content_wrapper .content .message_text, div.msgpopup2 .m
 input{
 	height:34px;
 	&.valid-code{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/icon-form.png);
+		background-image: url(images/icon-form.png);
 		background-repeat:no-repeat;
 		background-position: right center;
 		padding-right: 50px;
 	}
 	&.invalid-code{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/icon-invalid-form.png);
+		background-image: url(images/icon-invalid-form.png);
 		background-repeat:no-repeat;
 		background-position: right center;
 		padding-right: 50px;
 		@media #{$retina}{
-			background-image: url(../../images/colors/color1/flujoDeCompra/img/icon-invalid-form@2x.png);
+			background-image: url(images/icon-invalid-form@2x.png);
 			background-size: 35px;
 		}
 	}
@@ -992,11 +992,11 @@ select{
 	margin-bottom:20px;
 	display:block;
 	overflow:hidden;
-	background:#fff url(../../images/colors/color1/flujoDeCompra/img/select-arrow.jpg) right 15px no-repeat;
+	background:#fff url(images/select-arrow.jpg) right 15px no-repeat;
 	border:solid 1px #e4e4e4;
 	padding-right:40px;
 	@media #{$retina}{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/select-arrow@2x.png);
+		background-image: url(images/select-arrow@2x.jpg);
 		background-size: 25px;
 	}
 	select{
@@ -1023,7 +1023,7 @@ select{
 }
 
 .loading{
-	background:transparent url(../../images/colors/color1/flujoDeCompra/img/60.png) repeat;
+	background:transparent url(images/60.png) repeat;
 	height:100%;
 	width:100%;
 	display:none;
@@ -1035,7 +1035,7 @@ select{
 	bottom:0;
 	z-index:9999;
 	.spinner{
-		background:#fff url(../../images/colors/color1/flujoDeCompra/img/loading.GIF) center center no-repeat;
+		background:#fff url(images/loading.GIF) center center no-repeat;
 		height:50px;
 		width:50px;
 		position:absolute;
@@ -1268,7 +1268,7 @@ select{
 	right:0;
 	bottom:0;
 	@media #{$desktop}{
-		background: transparent url(../../images/colors/color1/flujoDeCompra/img/60.png) repeat;
+		background: transparent url(images/60.png) repeat;
 	}
 }
 
@@ -1329,7 +1329,7 @@ table{
 }
 
 .domicilio-small-icon{
-	background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) 0 -415px no-repeat;
+	background:transparent url(images/tileset.png) 0 -415px no-repeat;
 	height:21px;
 	width:26px;
 	overflow:hidden;
@@ -1341,12 +1341,12 @@ table{
 		margin:0 7px 0 0;
 	}
 	@media #{$retina}{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+		background-image: url(images/tileset@2x.png);
 		background-size: 175px;
 	}
 }
 .tienda-small-icon{
-	background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) -27px -415px no-repeat;
+	background:transparent url(images/tileset.png) -27px -415px no-repeat;
 	height:21px;
 	width:26px;
 	overflow:hidden;
@@ -1358,12 +1358,12 @@ table{
 		margin:0 7px 0 0;
 	}
 	@media #{$retina}{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+		background-image: url(images/tileset@2x.png);
 		background-size: 175px;
 	}
 }
 .retiro-small-icon{
-	background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) -55px -415px no-repeat;
+	background:transparent url(images/tileset.png) -55px -415px no-repeat;
 	height:21px;
 	width:16px;
 	overflow:hidden;
@@ -1375,12 +1375,12 @@ table{
 		margin:0 7px 0 0;
 	}
 	@media #{$retina}{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+		background-image: url(images/tileset@2x.png);
 		background-size: 175px;
 	}
 }
 .ripleypuntos-icon{
-	background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) -84px -172px no-repeat;
+	background:transparent url(images/tileset.png) -84px -172px no-repeat;
 	height:24px;
 	width:92px;
 	overflow:hidden;
@@ -1388,7 +1388,7 @@ table{
 	text-indent:-9999px;
 	margin:0 10px 0 0;
 	@media #{$retina}{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+		background-image: url(images/tileset@2x.png);
 		background-size:175px;
 	}
 }
@@ -1415,7 +1415,7 @@ table{
 			float:left;
 		}
 		img#logo-ripley-chile{
-			background: transparent url(../../images/colors/color1/flujoDeCompra/img/logo-header.png) 0 0 no-repeat;
+			background: transparent url(images/logo-header.png) 0 0 no-repeat;
 			height: 56px;
 			width: 180px;
 			overflow: hidden;
@@ -1442,7 +1442,7 @@ table{
 			line-height: 1.8em;
 		}
 		.icon-shopping-bag{
-			background: transparent url(../../images/colors/color1/flujoDeCompra/img/bolsa-icon.png) 0 0 no-repeat;
+			background: transparent url(images/bolsa-icon.png) 0 0 no-repeat;
 			display: none;
 			height:39px;
 			width:23px;
@@ -2477,7 +2477,7 @@ dl.subtotal-price{
 }
 
 #login-modal, #display-login{
-	background: #f4f4f4 url(../../images/colors/color1/flujoDeCompra/img/modal-bg.jpg) repeat-x;
+	background: #f4f4f4 url(images/modal-bg.jpg) repeat-x;
 	.modal-dialog{
 		padding:0;
 		overflow: hidden;
@@ -2940,23 +2940,23 @@ dl.subtotal-price{
 					.shipping-method-type{
 						background: #79568e;
 						.retiro-icon{
-							background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) 0 -29px no-repeat;
+							background:transparent url(images/tileset.png) 0 -29px no-repeat;
 							@media #{$retina}{
-								background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+								background-image: url(images/tileset@2x.png);
 								background-size: 175px;
 							}
 						}
 						.casa-icon{
-							background: transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) -24px -28px no-repeat;
+							background: transparent url(images/tileset.png) -24px -28px no-repeat;
 							@media #{$retina}{
-								background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+								background-image: url(images/tileset@2x.png);
 								background-size: 175px;
 							}
 						}
 						.tienda-icon{
-							background: transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) -56px -28px no-repeat;
+							background: transparent url(images/tileset.png) -56px -28px no-repeat;
 							@media #{$retina}{
-								background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+								background-image: url(images/tileset@2x.png);
 								background-size: 175px;
 							}
 						}
@@ -2964,23 +2964,23 @@ dl.subtotal-price{
 				}
 				&.disabled{
 					.retiro-icon{
-						background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) 0 -58px no-repeat;
+						background:transparent url(images/tileset.png) 0 -58px no-repeat;
 						@media #{$retina}{
-							background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+							background-image: url(images/tileset@2x.png);
 							background-size: 175px;
 						}
 					}
 					.casa-icon{
-						background: transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) -24px -57px no-repeat;
+						background: transparent url(images/tileset.png) -24px -57px no-repeat;
 						@media #{$retina}{
-							background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+							background-image: url(images/tileset@2x.png);
 							background-size: 175px;
 						}
 					}
 					.tienda-icon{
-						background: transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) -56px -57px no-repeat;
+						background: transparent url(images/tileset.png) -56px -57px no-repeat;
 						@media #{$retina}{
-							background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+							background-image: url(images/tileset@2x.png);
 							background-size: 175px;
 						}
 					}
@@ -3008,7 +3008,7 @@ dl.subtotal-price{
 				margin:0 auto 10px;
 				@include border-radius(25px);
 				.retiro-icon{
-					background: transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) 0 0 no-repeat;
+					background: transparent url(images/tileset.png) 0 0 no-repeat;
 					height:29px;
 					width:24px;
 					display:block;
@@ -3018,12 +3018,12 @@ dl.subtotal-price{
 					top:13px;
 					left:16px;
 					@media #{$retina}{
-						background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+						background-image: url(images/tileset@2x.png);
 						background-size: 175px;
 					}
 				}
 				.casa-icon{
-					background: transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) -24px 0 no-repeat;
+					background: transparent url(images/tileset.png) -24px 0 no-repeat;
 					height:29px;
 					width:33px;
 					display:block;
@@ -3033,12 +3033,12 @@ dl.subtotal-price{
 					top:14px;
 					left:11px;
 					@media #{$retina}{
-						background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+						background-image: url(images/tileset@2x.png);
 						background-size: 175px;
 					}
 				}
 				.tienda-icon{
-					background: transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) -56px 0 no-repeat;
+					background: transparent url(images/tileset.png) -56px 0 no-repeat;
 					height:29px;
 					width:31px;
 					display:block;
@@ -3048,7 +3048,7 @@ dl.subtotal-price{
 					top:13px;
 					left:11px;
 					@media #{$retina}{
-						background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+						background-image: url(images/tileset@2x.png);
 						background-size: 175px;
 					}
 				}
@@ -3240,19 +3240,19 @@ dl.subtotal-price{
 					margin:10px 0 0 10px;
 				}
 				&.shopping-bag-small-icon{
-					background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) -100px -358px no-repeat;
+					background:transparent url(images/tileset.png) -100px -358px no-repeat;
 					height:30px;
 					width:30px;
 					display: block;
 					overflow: hidden;
 					text-indent:-9999px;
 					@media #{$desktop}{
-						background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) -101px -334px no-repeat;
+						background:transparent url(images/tileset.png) -101px -334px no-repeat;
 						height:22px;
 						width:22px;
 					}
 					@media #{$retina}{
-						background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+						background-image: url(images/tileset@2x.png);
 						background-size: 175px;
 					}
 				}
@@ -3280,7 +3280,7 @@ dl.subtotal-price{
 			}
 			&.shopping-bag{
 				.shopping-bag-icon{
-					background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) -58px -334px no-repeat;
+					background:transparent url(images/tileset.png) -58px -334px no-repeat;
 					height:39px;
 					width:39px;
 					overflow: hidden;
@@ -3288,7 +3288,7 @@ dl.subtotal-price{
 					margin:-10px 10px 0 0;
 					@include border-radius(0);
 					@media #{$retina}{
-						background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+						background-image: url(images/tileset@2x.png);
 						background-size: 175px;
 					}
 				}
@@ -3376,7 +3376,7 @@ dl.subtotal-price{
 		margin-bottom: 30px;
 	}
 	.bolsa-icon{
-		background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) 0 -91px no-repeat;
+		background:transparent url(images/tileset.png) 0 -91px no-repeat;
 		height:34px;
 		width: 32px;
 		display: block;
@@ -3385,12 +3385,12 @@ dl.subtotal-price{
 		float:left;
 		margin:0 20px 10px 0;
 		@media #{$retina}{
-			background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+			background-image: url(images/tileset@2x.png);
 			background-size: 175px;
 		}
 	}
 	.horario-icon{
-		background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) -35px -91px no-repeat;
+		background:transparent url(images/tileset.png) -35px -91px no-repeat;
 		height:34px;
 		width: 34px;
 		display: block;
@@ -3399,12 +3399,12 @@ dl.subtotal-price{
 		float:left;
 		margin:0 20px 10px 0;
 		@media #{$retina}{
-			background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+			background-image: url(images/tileset@2x.png);
 			background-size: 175px;
 		}
 	}
 	.precio-icon{
-		background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) -70px -91px no-repeat;
+		background:transparent url(images/tileset.png) -70px -91px no-repeat;
 		height:34px;
 		width: 34px;
 		display: block;
@@ -3413,12 +3413,12 @@ dl.subtotal-price{
 		float:left;
 		margin:0 20px 10px 0;
 		@media #{$retina}{
-			background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+			background-image: url(images/tileset@2x.png);
 			background-size: 175px;
 		}
 	}
 	.email-icon{
-		background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) -105px -91px no-repeat;
+		background:transparent url(images/tileset.png) -105px -91px no-repeat;
 		height:34px;
 		width: 34px;
 		display: block;
@@ -3430,7 +3430,7 @@ dl.subtotal-price{
 			margin-bottom: 60px;
 		}
 		@media #{$retina}{
-			background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+			background-image: url(images/tileset@2x.png);
 			background-size: 175px;
 		}
 	}
@@ -3743,14 +3743,14 @@ dl.subtotal-price{
 		margin-bottom: 10px;
 	}
 	.alert-icon{
-		background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) 0 -167px no-repeat;
+		background:transparent url(images/tileset.png) 0 -167px no-repeat;
 		height:33px;
 		width:34px;
 		display: block;
 		float:left;
 		margin:0 10px 0 0;
 		@media #{$retina}{
-			background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+			background-image: url(images/tileset@2x.png);
 			background-size: 175px;
 		}
 	}
@@ -4140,19 +4140,19 @@ img.maps{
   }
 }
 .tripley-icon{
-	background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) 0 -206px no-repeat;
+	background:transparent url(images/tileset.png) 0 -206px no-repeat;
 	height:27px;
 	width:41px;
 	display:block;
 	overflow:hidden;
 	text-indent:-9999px;
 	@media #{$retina}{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+		background-image: url(images/tileset@2x.png);
 		background-size: 175px;
 	}
 }
 .mripley-icon{
-	background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) -45px -206px no-repeat;
+	background:transparent url(images/tileset.png) -45px -206px no-repeat;
 	height:27px;
 	width:41px;
 	display:block;
@@ -4160,12 +4160,12 @@ img.maps{
 	text-indent:-9999px;
 	margin-left:3px;
 	@media #{$retina}{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+		background-image: url(images/tileset@2x.png);
 		background-size: 175px;
 	}
 }
 .mercadopago-icon{
-	background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) -58px -440px no-repeat;
+	background:transparent url(images/tileset.png) -58px -440px no-repeat;
 	height:31px;
 	width:119px;
 	display:block;
@@ -4173,67 +4173,67 @@ img.maps{
 	overflow:hidden;
 	text-indent:-9999px;
 	@media #{$retina}{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+		background-image: url(images/tileset@2x.png);
 		background-size: 175px;
 	}
 }
 .mercadopago-small{
-	background: transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) -92px -399px no-repeat;
+	background: transparent url(images/tileset.png) -92px -399px no-repeat;
 	height:31px;
 	width:85px;
 	display:block;
 	overflow:hidden;
 	text-indent:-9999px;
 	@media #{$retina}{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+		background-image: url(images/tileset@2x.png);
 		background-size:175px;
 	}
 }
 .webpayo-icon{
-	background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) 0 -234px no-repeat;
+	background:transparent url(images/tileset.png) 0 -234px no-repeat;
 	height:26px;
 	width:63px;
 	display:block;
 	overflow:hidden;
 	text-indent:-9999px;
 	@media #{$retina}{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+		background-image: url(images/tileset@2x.png);
 		background-size: 175px;
 	}
 }
 .webpay-icon{
-	background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) 0 -262px no-repeat;
+	background:transparent url(images/tileset.png) 0 -262px no-repeat;
 	height:32px;
 	width:63px;
 	display:block;
 	overflow:hidden;
 	text-indent:-9999px;
 	@media #{$retina}{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+		background-image: url(images/tileset@2x.png);
 		background-size: 175px;
 	}
 }
 .webpayc-icon{
-	background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) -63px -262px no-repeat;
+	background:transparent url(images/tileset.png) -63px -262px no-repeat;
 	height:32px;
 	width:63px;
 	display:block;
 	overflow:hidden;
 	text-indent:-9999px;
 	@media #{$retina}{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+		background-image: url(images/tileset@2x.png);
 		background-size: 175px;
 	}
 }
 .giftcard-icon{
-	background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) 0 0-298px no-repeat;
+	background:transparent url(images/tileset.png) 0 0-298px no-repeat;
 	height:35px;
 	width:36px;
 	display:block;
 	overflow:hidden;
 	text-indent:-9999px;
 	@media #{$retina}{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+		background-image: url(images/tileset@2x.png);
 		background-size: 175px;
 	}
 }
@@ -4380,50 +4380,50 @@ ul#payment-document{
     text-align: center;
   }
 	input.input-tripley{
-		background: #fff url(../../images/colors/color1/flujoDeCompra/img/tripley.png) right center no-repeat;
+		background: #fff url(images/tripley.png) right center no-repeat;
 		padding-right: 55px;
 		@media #{$retina}{
-			background-image: url(../../images/colors/color1/flujoDeCompra/img/tripley@2x.png);
+			background-image: url(images/tripley@2x.png);
 			background-size: 37px;
 		}
 	}
 	input.input-tvisa{
-		background: #fff url(../../images/colors/color1/flujoDeCompra/img/payment/tvisa.png) right center no-repeat;
+		background: #fff url(images/payment/tvisa.png) right center no-repeat;
 		padding-right: 55px;
 		@media #{$retina}{
-			background-image: url(../../images/colors/color1/flujoDeCompra/img/tvisa@2x.png);
+			background-image: url(images/payment/tvisa@2x.png);
 			background-size: 37px;
 		}
 	}
 	input.input-tmastercard{
-		background: #fff url(../../images/colors/color1/flujoDeCompra/img/payment/tmastercard.png) right center no-repeat;
+		background: #fff url(images/payment/tmastercard.png) right center no-repeat;
 		padding-right: 55px;
 		@media #{$retina}{
-			background-image: url(../../images/colors/color1/flujoDeCompra/img/tmastercard@2x.png);
+			background-image: url(images/payment/tmastercard@2x.png);
 			background-size: 37px;
 		}
 	}
 	input.input-tdinners{
-		background: #fff url(../../images/colors/color1/flujoDeCompra/img/payment/tdinners.png) right center no-repeat;
+		background: #fff url(images/payment/tdinners.png) right center no-repeat;
 		padding-right: 55px;
 		@media #{$retina}{
-			background-image: url(../../images/colors/color1/flujoDeCompra/img/tdinners@2x.png);
+			background-image: url(images/payment/tdinners@2x.png);
 			background-size: 37px;
 		}
 	}
 	input.input-tmagna{
-		background: #fff url(../../images/colors/color1/flujoDeCompra/img/payment/tmagna.png) right center no-repeat;
+		background: #fff url(images/payment/tmagna.png) right center no-repeat;
 		padding-right: 55px;
 		@media #{$retina}{
-			background-image: url(../../images/colors/color1/flujoDeCompra/img/tmagna@2x.png);
+			background-image: url(images/payment/tmagna@2x.png);
 			background-size: 37px;
 		}
 	}
 	input.input-tamerican{
-		background: #fff url(../../images/colors/color1/flujoDeCompra/img/payment/tamericanexpress.png) right center no-repeat;
+		background: #fff url(images/payment/tamericanexpress.png) right center no-repeat;
 		padding-right: 55px;
 		@media #{$retina}{
-			background-image: url(../../images/colors/color1/flujoDeCompra/img/tamericanexpress@2x.png);
+			background-image: url(images/payment/tamericanexpress@2x.png);
 			background-size: 37px;
 		}
 	}
@@ -4503,7 +4503,7 @@ ul#payment-document{
 		}
 	}
 	.simple-rcard{
-		background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) 0 -332px no-repeat;
+		background:transparent url(images/tileset.png) 0 -332px no-repeat;
 		height:42px;
 		width:52px;
 		display: block;
@@ -4513,12 +4513,12 @@ ul#payment-document{
 			margin:0 10px 0 0;
 		}
 		@media #{$retina}{
-			background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+			background-image: url(images/tileset@2x.png);
 			background-size: 175px;
 		}
 	}
 	.simple-tcard{
-		background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) 0 -440px no-repeat;
+		background:transparent url(images/tileset.png) 0 -440px no-repeat;
 		height:42px;
 		width:52px;
 		display: block;
@@ -4528,7 +4528,7 @@ ul#payment-document{
 			margin:0 10px 0 0;
 		}
 		@media #{$retina}{
-			background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+			background-image: url(images/tileset@2x.png);
 			background-size: 175px;
 		}
 	}
@@ -5031,7 +5031,7 @@ ul#payment-document{
 		font-family: $bold-primary-font;
 	}
 	.norton-icon{
-		background: transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) 0 -376px no-repeat;
+		background: transparent url(images/tileset.png) 0 -376px no-repeat;
 		height:34px;
 		width:63px;
 		overflow: hidden;
@@ -5043,7 +5043,7 @@ ul#payment-document{
 			margin:0 10px 0 0;
 		}
 		@media #{$retina}{
-			background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+			background-image: url(images/tileset@2x.png);
 			background-size: 175px;
 		}
 	}
@@ -5439,44 +5439,44 @@ ul#payment-document{
 	margin:0 3px 0 0;
 }
 .visa-icon{
-	background:transparent url(../../images/colors/color1/flujoDeCompra/img/payment/visa.png) 0 0 no-repeat;
+	background:transparent url(images/payment/visa.png) 0 0 no-repeat;
 	@media #{$retina}{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/payment/tvisa@2x.png);
+		background-image: url(images/payment/tvisa@2x.png);
 		background-size: 32px;
 	}
 }
 .mastercard-icon{
-	background:transparent url(../../images/colors/color1/flujoDeCompra/img/payment/mastercard.png) 0 0 no-repeat;
+	background:transparent url(images/payment/mastercard.png) 0 0 no-repeat;
 	@media #{$retina}{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/payment/tmastercard@2x.png);
+		background-image: url(images/payment/tmastercard@2x.png);
 		background-size: 32px;
 	}
 }
 .discover-icon{
-	background:transparent url(../../images/colors/color1/flujoDeCompra/img/payment/discover.png) 0 0 no-repeat;
+	background:transparent url(images/payment/discover.png) 0 0 no-repeat;
 	@media #{$retina}{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/payment/tdiscover@2x.png);
+		background-image: url(images/payment/tdiscover@2x.png);
 		background-size: 32px;
 	}
 }
 .american-icon{
-	background:transparent url(../../images/colors/color1/flujoDeCompra/img/payment/americanexpress.png) 0 0 no-repeat;
+	background:transparent url(images/payment/americanexpress.png) 0 0 no-repeat;
 	@media #{$retina}{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/payment/tamericanexpress@2x.png);
+		background-image: url(images/payment/tamericanexpress@2x.png);
 		background-size: 32px;
 	}
 }
 .magna-icon{
-	background:transparent url(../../images/colors/color1/flujoDeCompra/img/payment/magna.png) 0 0 no-repeat;
+	background:transparent url(images/payment/magna.png) 0 0 no-repeat;
 	@media #{$retina}{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/payment/tmagna@2x.png);
+		background-image: url(images/payment/tmagna@2x.png);
 		background-size: 32px;
 	}
 }
 .dinners-icon{
-	background:transparent url(../../images/colors/color1/flujoDeCompra/img/payment/dinners.png) 0 0 no-repeat;
+	background:transparent url(images/payment/dinners.png) 0 0 no-repeat;
 	@media #{$retina}{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/payment/tdinners@2x.png);
+		background-image: url(images/payment/tdinners@2x.png);
 		background-size: 32px;
 	}
 }
@@ -5651,7 +5651,7 @@ ul#payment-document{
 	}
 }
 .shopping-bag-resume-icon{
-	background:transparent url(../../images/colors/color1/flujoDeCompra/img/tileset.png) -92px 0 no-repeat;
+	background:transparent url(images/tileset.png) -92px 0 no-repeat;
 	height:20px;
 	width:20px;
 	display:inline-block;
@@ -5659,7 +5659,7 @@ ul#payment-document{
 	overflow:hidden;
 	text-indent:-9999px;
 	@media #{$retina}{
-		background-image: url(../../images/colors/color1/flujoDeCompra/img/tileset@2x.png);
+		background-image: url(images/tileset@2x.png);
 		background-size: 175px;
 	}
 }
